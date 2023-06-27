@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "name": "no-pattern",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "localRoot": "${workspaceFolder}/no-pattern",
+      "remoteRoot": "${workspaceFolder}/no-pattern",
+      "program": "index.js"
+    },
+    {
+      "type": "node",
+      "name": "strategy-pattern",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "localRoot": "${workspaceFolder}/strategy-pattern",
+      "remoteRoot": "${workspaceFolder}/strate-pattern",
+      "program": "index.js"
+    }
+  ]
+}
